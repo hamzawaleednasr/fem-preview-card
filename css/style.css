@@ -19,7 +19,7 @@ body {
     background-color: var(--white);
     border-radius: 0.9rem;
     border: 1px black solid;
-    width: 24rem;
+    width: 22rem;
     box-shadow: 8px 8px 0 0 black;
     padding: 1.25rem;
 }
