@@ -9,8 +9,63 @@
 }
 body {
     background-color: var(--yellow);
+    font-family: 'Figtree', sans-serif;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.card {
+    background-color: var(--white);
+    border-radius: 0.9rem;
+    border: 1px black solid;
+    width: 24rem;
+    box-shadow: 8px 8px 0 0 black;
+    padding: 1.25rem;
+}
+.card-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.card-image img {
+    width: 100%;
+    border-radius: 0.75em;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.card-content .info .tag {
+    font-weight: 900;
+    font-size: 0.9rem;
+    background-color: var(--yellow);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    width: fit-content;
+    margin-bottom: 0.6rem;
+}
+.card-content .main-content .title {
+    font-size: 1.5rem;
+    margin-bottom: 0.6rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card-content .main-content .title:hover {
+    color: var(--yellow);
+}
+.card-content .main-content .desc {
+    color: var(--gray-5);
+}
+.card-content .author {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.card-content .author img {
+    width: 2rem;
+}
+.card-content .author .name {
+    font-size: 0.9rem;
+    font-weight: 900;
 }
